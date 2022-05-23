@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://st.myideasoft.com/idea/dj/52/myassets/products/662/v6qdwz.jpg?revision=1555423249);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 80vw; */
+    height: 100vh;
+}
+
+.container__başlık{
+    color: white;
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 5rem;;
+}
+
+.container__paragraf{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.footer .div1, .div2, .div3 {
+    background-color: gray;
+    width: 7rem;
+    height: 1rem;
+    display: inline-block;
+    margin: 1rem;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 5rem;
+    left: 38%;    
+}
+.footer .div1{
+    background-color: brown;
+    cursor: pointer;
+}
+
+.footer .div2:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+.footer .div3:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+
